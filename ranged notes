@@ -1,0 +1,92 @@
+##
+#assault rifle offset
+## 2.5
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-1.0, 0.25],
+  "muzzleOffset" : [0.0, 0.3125]
+
+##
+#grenade launcher offset
+## 1
+  "animationParts" : { },
+  "animationCustom" : { 
+    "animatedParts" : {
+      "parts" : {
+        "muzzleFlash" : {
+          "partStates" : {
+            "firing" : {
+              "fire" : {
+                "properties" : {
+                  "image" : ""
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+  "baseOffset" : [-1.75, 0.5],
+  "muzzleOffset" : [0.0, 0.125]
+
+##
+#machine pistol offset
+## 3
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-0.375, 0.125],
+  "muzzleOffset" : [0.0, 0.375]
+
+##
+#pistol offset
+## 3
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-0.25, 0.25],
+  "muzzleOffset" : [0,0.375]
+
+##
+#rocket launcher offset
+## 1
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff" }
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/rocket1.ogg" ]
+    }
+  },
+  "baseOffset" : [-2.5, 0.375],
+  "muzzleOffset" : [0.0, 0.125]
+
+##
+#shotgun offset
+## 2.5
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-1.25, 0.25],
+  "muzzleOffset" : [0.0, 0.3125]
+
+##
+#sniper rifle offset
+## 0
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-1.25, 0.5],
+"muzzleOffset" : [0.0, 0.0]
